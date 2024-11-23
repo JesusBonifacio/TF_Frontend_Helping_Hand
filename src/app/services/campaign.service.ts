@@ -20,7 +20,7 @@ export class CampaignService {
   getCampaignReport() {
     return this.http.get<Campaign[]>(this.ruta_servidor);
   }
-
+//get campaignName(){}
   getCampaignByName(name: String) {
     return this.http.get<Campaign[]>(this.ruta_servidor + "/campaigns/" + name);
   }
