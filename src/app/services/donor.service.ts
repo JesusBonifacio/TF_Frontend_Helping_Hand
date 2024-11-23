@@ -7,3 +7,4 @@ export class DonorService {
 
   constructor() { }
 }
+//mejorar la interfaz que falta...
